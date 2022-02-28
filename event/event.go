@@ -1,16 +1,15 @@
 package event
 
-var event = "| Kylling---\\________/__________________--- |"
 
-func ViewEvent() string {
-	return event
+func Event() string {
+	return "| Kylling---\\________/__________________--- |"
 }
 
-func AllGoingOver() {
-	event = "| ---\\____Kylling____/__________________--- |"
+func AllGoingOver() string {
+ return"| ---\\____Kylling____/__________________--- |"
 }
 
-func AllOver() {
-	event = "| ---__________________\\________/---Kylling  |"
+func AllOver() string {
+	return "| ---__________________\\________/---Kylling  |"
 }
 
